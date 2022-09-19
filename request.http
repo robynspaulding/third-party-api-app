@@ -1,0 +1,8 @@
+###
+GET http://localhost:3000/words?word=happy
+#This is returning a 500 internal server error with a bunch of html code...
+
+
+###
+GET GET https://wordsapiv1.p.mashape.com/words/happy
+# this is what the site says to use for http requests - however when i try it i get a message from vscode "getaddrinfo ENOTFOUND get"
